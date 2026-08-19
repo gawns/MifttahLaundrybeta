@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miftah Laundry - Bersih, Cepat, dan Terpercaya</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ====== NAVBAR ====== -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                <i class="fas fa-tshirt"></i> Miftah Laundry
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#advantages">Keunggulan</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li>
+                    <div class="theme-toggle" id="themeToggle" role="button" aria-label="Toggle theme">
+                        <span class="toggle-icon" id="themeIconLight"><i class="fas fa-sun"></i></span>
+                        <div class="toggle-track">
+                            <div class="toggle-thumb"></div>
+                        </div>
+                        <span class="toggle-icon" id="themeIconDark"><i class="fas fa-moon"></i></span>
+                        <span class="theme-label" id="themeLabel">Terang</span>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="nav-overlay" id="navOverlay"></div>
+    </header>
+
+    <main>
+
+        <!-- ====== HERO ====== -->
+        <section id="home" class="hero-section">
+            <div class="waves-container">
+                <div class="waves">
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Laundry <span>Mudah & Cepat</span></h1>
+                    <p>
+                        Solusi laundry terpercaya untuk pakaian bersih, wangi, dan rapi.
+                        Nikmati layanan antar-jemput gratis dengan kualitas profesional.
+                    </p>
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-shopping-bag"></i> Lihat Layanan
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper lazy-wrapper">
+                        <img 
+                            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='18' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                            data-src="images/imghome.png"
+                            alt="Miftah Laundry"
+                            class="lazy-image"
+                            width="600"
+                            height="400"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== TENTANG ====== -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Tentang Kami</span>
+                    <h2>Miftah Laundry</h2>
+                    <p>Melayani dengan hati, menjaga kepercayaan Anda</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <div class="image-wrapper lazy-wrapper">
+                            <img 
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='18' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                data-src="images/img3.png"
+                                alt="Tentang Miftah Laundry"
+                                class="lazy-image"
+                                width="600"
+                                height="400"
+                            />
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Siapa Kami?</h3>
+                        <p>
+                            Miftah Laundry hadir sejak 2020 dengan komitmen memberikan layanan laundry berkualitas
+                            tinggi dengan harga terjangkau. Kami menggunakan peralatan modern, deterjen ramah lingkungan,
+                            dan tenaga profesional yang berpengalaman.
+                        </p>
+                        <div class="about-values">
+                            <div class="value-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Bersih & Wangi</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Tepat Waktu</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-hand-holding-heart"></i>
+                                <span>Perawatan Ekstra</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-leaf"></i>
+                                <span>Ramah Lingkungan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== LAYANAN ====== -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Layanan</span>
+                    <h2>Layanan Kami</h2>
+                    <p>Pilih layanan yang Anda butuhkan</p>
+                </div>
+                <div class="service-container">
+
+                    <article class="card" data-service="Cuci & Lipat" data-base-price="7000" data-unit="kg" data-min="1" data-max="8">
+                        <div class="card-image">
+                            <div class="image-wrapper lazy-wrapper">
+                                <img 
+                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                    data-src="images/imghome1.png"
+                                    alt="Cuci Lipat"
+                                    class="lazy-image"
+                                    width="400"
+                                    height="300"
+                                />
+                            </div>
+                            <span class="card-badge">Populer</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Cuci & Lipat</h3>
+                            <p>Pencucian, pengeringan, dan pelipatan rapi.</p>
+                            <div class="card-price">
+                                Rp <span class="price-value">7.000</span> <span>/kg</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline order-btn" data-service="Cuci & Lipat">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card" data-service="Dry Cleaning" data-base-price="15000" data-unit="kg" data-min="1" data-max="8">
+                        <div class="card-image">
+                            <div class="image-wrapper lazy-wrapper">
+                                <img 
+                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                    data-src="images/imghome2.png"
+                                    alt="Dry Cleaning"
+                                    class="lazy-image"
+                                    width="400"
+                                    height="300"
+                                />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Dry Cleaning</h3>
+                            <p>Perawatan khusus untuk pakaian berbahan halus.</p>
+                            <div class="card-price">
+                                Rp <span class="price-value">15.000</span> <span>/kg</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline order-btn" data-service="Dry Cleaning">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card" data-service="Setrika" data-base-price="5000" data-unit="kg" data-min="1" data-max="8">
+                        <div class="card-image">
+                            <div class="image-wrapper lazy-wrapper">
+                                <img 
+                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                    data-src="images/imghome3.png"
+                                    alt="Setrika"
+                                    class="lazy-image"
+                                    width="400"
+                                    height="300"
+                                />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Setrika</h3>
+                            <p>Setrika rapi dengan hasil yang memuaskan.</p>
+                            <div class="card-price">
+                                Rp <span class="price-value">5.000</span> <span>/kg</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline order-btn" data-service="Setrika">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card" data-service="Cuci Sepatu" data-base-price="35000" data-unit="pasang" data-min="1" data-max="4">
+                        <div class="card-image">
+                            <div class="image-wrapper lazy-wrapper">
+                                <img 
+                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                    data-src="images/imghome4.png"
+                                    alt="Cuci Sepatu"
+                                    class="lazy-image"
+                                    width="400"
+                                    height="300"
+                                />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Cuci Sepatu</h3>
+                            <p>Pembersihan profesional untuk sepatu kesayangan.</p>
+                            <div class="card-price">
+                                Rp <span class="price-value">35.000</span> <span>/pasang</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline order-btn" data-service="Cuci Sepatu">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card" data-service="Bed Cover" data-base-price="20000" data-unit="pcs" data-min="1" data-max="4">
+                        <div class="card-image">
+                            <div class="image-wrapper lazy-wrapper">
+                                <img 
+                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                    data-src="images/imghome5.png"
+                                    alt="Bed Cover"
+                                    class="lazy-image"
+                                    width="400"
+                                    height="300"
+                                />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Bed Cover</h3>
+                            <p>Pembersihan khusus untuk bed cover dan selimut.</p>
+                            <div class="card-price">
+                                Rp <span class="price-value">20.000</span> <span>/pcs</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline order-btn" data-service="Bed Cover">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card" data-service="Express Laundry" data-base-price="5000" data-unit="jam" data-min="2" data-max="24" data-express="true">
+                        <div class="card-image">
+                            <div class="image-wrapper lazy-wrapper">
+                                <img 
+                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                    data-src="images/imghome6.png"
+                                    alt="Express Laundry"
+                                    class="lazy-image"
+                                    width="400"
+                                    height="300"
+                                />
+                            </div>
+                            <span class="card-badge">Express</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Express Laundry</h3>
+                            <p>Layanan kilat dengan waktu sesuai kebutuhan.</p>
+                            <div class="card-price">
+                                Rp <span class="price-value">5.000</span> <span>/jam</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline order-btn" data-service="Express Laundry">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== KEUNGGULAN ====== -->
+        <section id="advantages" class="advantages-section">
+            <div class="container">
+                <div class="section-header light">
+                    <span class="badge">Keunggulan</span>
+                    <h2>Kenapa Harus Kami?</h2>
+                    <p>Kami berkomitmen memberikan yang terbaik untuk Anda</p>
+                </div>
+                <div class="advantage-container">
+                    <article>
+                        <div class="advantage-icon"><i class="fas fa-truck"></i></div>
+                        <h3>Antar-Jemput Gratis</h3>
+                        <p>Layanan antar-jemput tanpa biaya tambahan di area Yogyakarta.</p>
+                    </article>
+                    <article>
+                        <div class="advantage-icon"><i class="fas fa-wallet"></i></div>
+                        <h3>Harga Terjangkau</h3>
+                        <p>Harga kompetitif dengan kualitas layanan premium.</p>
+                    </article>
+                    <article>
+                        <div class="advantage-icon"><i class="fas fa-recycle"></i></div>
+                        <h3>Ramah Lingkungan</h3>
+                        <p>Menggunakan deterjen eco-friendly yang aman untuk kulit.</p>
+                    </article>
+                    <article>
+                        <div class="advantage-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Tepat Waktu</h3>
+                        <p>Pengerjaan cepat dan sesuai dengan janji waktu.</p>
+                    </article>
+                    <article>
+                        <div class="advantage-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Garansi Kepuasan</h3>
+                        <p>Jika tidak puas, kami akan perbaiki tanpa biaya tambahan.</p>
+                    </article>
+                    <article>
+                        <div class="advantage-icon"><i class="fas fa-user-friends"></i></div>
+                        <h3>Staf Profesional</h3>
+                        <p>Tim berpengalaman dan terlatih dalam menangani berbagai jenis pakaian.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== GALERI ====== -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Galeri</span>
+                    <h2>Dokumentasi Kami</h2>
+                    <p>Lihat fasilitas dan hasil kerja kami</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="image-wrapper lazy-wrapper">
+                            <img 
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                data-src="images/img1.png"
+                                alt="Galeri 1"
+                                class="lazy-image"
+                                width="400"
+                                height="300"
+                            />
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-wrapper lazy-wrapper">
+                            <img 
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                data-src="images/img2.png"
+                                alt="Galeri 2"
+                                class="lazy-image"
+                                width="400"
+                                height="300"
+                            />
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-wrapper lazy-wrapper">
+                            <img 
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                data-src="images/img3.png"
+                                alt="Galeri 3"
+                                class="lazy-image"
+                                width="400"
+                                height="300"
+                            />
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-wrapper lazy-wrapper">
+                            <img 
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                data-src="images/img4.png"
+                                alt="Galeri 4"
+                                class="lazy-image"
+                                width="400"
+                                height="300"
+                            />
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-wrapper lazy-wrapper">
+                            <img 
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                data-src="images/img5.png"
+                                alt="Galeri 5"
+                                class="lazy-image"
+                                width="400"
+                                height="300"
+                            />
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-wrapper lazy-wrapper">
+                            <img 
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0f4f8'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='16' fill='%238a9aa8' text-anchor='middle' dy='.3em'%3EMemuat...%3C/text%3E%3C/svg%3E"
+                                data-src="images/img6.png"
+                                alt="Galeri 6"
+                                class="lazy-image"
+                                width="400"
+                                height="300"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== KONTAK ====== -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Kontak</span>
+                    <h2>Hubungi Kami</h2>
+                    <p>Isi form di bawah untuk pemesanan</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3><i class="fas fa-map-marker-alt"></i> Alamat</h3>
+                        <p>Dekat Cluster Bantulan Jl. Kresna No.3, RT.04/RW.04, Bantulan, Sidoarum, Kec. Godean, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55264</p>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span>Telepon</span>
+                                <p>0878-3813-8185</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <span>Jam Operasional</span>
+                                <p>Setiap Hari · 07.00 - 20.00 WIB</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span>Email</span>
+                                <p>info@miftahlaundry.com</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://wa.me/6287838138185" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- ===== FORM PEMESANAN ===== -->
+                    <div class="contact-form">
+                        <h3>Form Pemesanan</h3>
+                        <form id="contactForm" novalidate>
+                            <div class="form-group">
+                                <label><i class="fas fa-user"></i> Nama Lengkap</label>
+                                <input type="text" id="customerName" placeholder="Masukkan nama Anda" required />
+                                <div class="error-text" id="nameError">Nama hanya boleh berisi huruf</div>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-phone"></i> Nomor Telepon</label>
+                                <input type="tel" id="customerPhone" placeholder="Masukkan nomor telepon (62...)" required />
+                                <div class="error-text" id="phoneError">Nomor harus dimulai dengan 62 dan hanya angka</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label><i class="fas fa-tag"></i> Jenis Layanan</label>
+                                <div class="custom-select-wrapper">
+                                    <select id="serviceSelect" class="custom-select">
+                                        <option value="">Pilih Jenis Layanan</option>
+                                        <option value="Cuci & Lipat" data-base="7000" data-unit="kg" data-min="1" data-max="8">Cuci & Lipat</option>
+                                        <option value="Dry Cleaning" data-base="15000" data-unit="kg" data-min="1" data-max="8">Dry Cleaning</option>
+                                        <option value="Setrika" data-base="5000" data-unit="kg" data-min="1" data-max="8">Setrika</option>
+                                        <option value="Cuci Sepatu" data-base="35000" data-unit="pasang" data-min="1" data-max="4">Cuci Sepatu</option>
+                                        <option value="Bed Cover" data-base="20000" data-unit="pcs" data-min="1" data-max="4">Bed Cover</option>
+                                        <option value="Express Laundry" data-base="5000" data-unit="jam" data-min="2" data-max="24" data-express="true">Express Laundry</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down select-arrow"></i>
+                                </div>
+                            </div>
+
+                            <!-- ===== SLIDER YANG DIPERBAIKI ===== -->
+                            <div class="form-group" id="sliderContainer" style="display: none;">
+                                <div class="slider-header">
+                                    <label id="sliderLabel">
+                                        <i class="fas fa-weight-hanging"></i> 
+                                        Jumlah: <span id="sliderValueDisplay">1</span> <span id="sliderUnitDisplay">kg</span>
+                                    </label>
+                                </div>
+                                
+                                <div class="slider-track-wrapper">
+                                    <input type="range" id="quantitySlider" min="1" max="8" value="1" />
+                                    <div class="slider-progress" id="sliderProgress"></div>
+                                    <div class="slider-thumb-value" id="sliderThumbValue">1</div>
+                                </div>
+                                
+                                <div class="slider-labels">
+                                    <span id="sliderMinLabel">1 kg</span>
+                                    <span id="sliderMaxLabel">8 kg</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label><i class="fas fa-money-bill-wave"></i> Estimasi Harga</label>
+                                <input type="text" id="estimatedPrice" placeholder="Rp 0" readonly />
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-pencil-alt"></i> Catatan Tambahan</label>
+                                <textarea id="orderNote" rows="3" placeholder="Tulis catatan tambahan..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i> Kirim Pesanan
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="map-box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3953.137740042617!2d110.31642567525226!3d-7.775215892244272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af764fdd5fae1%3A0xc35ec20000670a5a!2sMiftah%20Laundry!5e0!3m2!1sen!2sid!4v1785401336784!5m2!1sen!2sid"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====== FOOTER ====== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3><i class="fas fa-tshirt"></i> Miftah Laundry</h3>
+                <p>Layanan laundry profesional dengan kualitas terbaik.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Menu</h4>
+                <a href="#home">Beranda</a>
+                <a href="#about">Tentang</a>
+                <a href="#services">Layanan</a>
+                <a href="#advantages">Keunggulan</a>
+                <a href="#gallery">Galeri</a>
+                <a href="#contact">Kontak</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Kontak</h4>
+                <p><i class="fas fa-phone"></i> 0878-3813-8185</p>
+                <p><i class="fas fa-map-marker-alt"></i> Sidoarum, Godean</p>
+                <p><i class="fas fa-clock"></i> 07.00 - 20.00 WIB</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Miftah Laundry | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
