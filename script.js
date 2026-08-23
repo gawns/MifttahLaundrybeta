@@ -404,7 +404,7 @@ Terima kasih telah memesan di Miftah Laundry! ✨`;
             body: JSON.stringify({
                 target: phoneNumber,
                 message: message,
-                countryCode: '62'
+                countryCode: '6283114241995'
             })
         });
         
