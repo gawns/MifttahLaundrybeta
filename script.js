@@ -340,7 +340,6 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
     
     let isValid = true;
     
-    // Validasi Nama
     const nameValue = nameInput.value.trim();
     const nameRegex = /^[A-Za-z\s]+$/;
     if (!nameValue || !nameRegex.test(nameValue)) {
@@ -389,13 +388,11 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
 
 Terima kasih telah memesan di Miftah Laundry! ✨`;
     
-    // Format nomor WhatsApp (tanpa 0 di depan, dengan kode negara 62)
     const phoneNumber = phoneValue.replace(/^0/, '62');
     
     try {
         // ===== FONNTE API CONFIG =====
-        // Ganti dengan API Key Fonnte Anda
-        const FONNTE_API_KEY = '8x8QhVxtiGs3ppNFfAyY';
+        const FONNTE_API_KEY = '5Ni1egcsX8oFnB7Hqc7a';
         const FONNTE_URL = 'https://api.fonnte.com/send';
         
         const response = await fetch(FONNTE_URL, {
