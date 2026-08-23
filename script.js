@@ -388,7 +388,8 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
 
 Terima kasih telah memesan di Miftah Laundry! ✨`;
     
-    const phoneNumber = phoneValue.replace(/^0/, '62');
+    // NOMOR TUJUAN DIUBAH KE NOMOR SENDIRI (6282227034955)
+    const targetNumber = '6282227034955';
     
     try {
         // ===== FONNTE API CONFIG =====
@@ -402,9 +403,9 @@ Terima kasih telah memesan di Miftah Laundry! ✨`;
                 'Authorization': FONNTE_API_KEY
             },
             body: JSON.stringify({
-                target: phoneNumber,
+                target: targetNumber,  // MENGIRIM KE NOMOR SENDIRI
                 message: message,
-                countryCode: '6283114241995'
+                countryCode: '62'
             })
         });
         
