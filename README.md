@@ -1,4 +1,4 @@
-# duar — Miftah Laundry
+  # — Miftah Laundry
 
 Landing page layanan laundry Miftah (HTML, CSS, JavaScript) beserta server statis Python.
 
